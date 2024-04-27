@@ -71,7 +71,7 @@ const LocationSelector = () => {
 
   const handleCityChange = (e) => {
     setMessage(
-      `You selected ${selectedCountry},${selectedState},${e.target.value}`
+      `You selected ${selectedCountry}, ${selectedState}, ${e.target.value}`
     );
     setSelectedCity(`${e.target.value}`);
   };
