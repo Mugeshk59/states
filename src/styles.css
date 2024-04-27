@@ -1,0 +1,15 @@
+.Container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.dropdown {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.selected {
+  text-align: center;
+}
